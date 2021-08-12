@@ -1,0 +1,172 @@
+@charset "UTF-8";
+
+body {
+  background-image: url(../images/background.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+}
+
+/*Nav-general*/
+.nav-extended {
+  background-image: url(../images/headerbgimage.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: transparent;
+  display: flex;
+  justify-content: center;
+  font-family: "Mate SC", serif;
+}
+
+.navbar-fixed {
+  height: 50px;
+}
+
+.nav-all {
+  width: 80%;
+  height: 180px;
+  padding-top: 1%;
+}
+
+
+.brand-logo {
+  margin-left: 1.5%;
+}
+
+ /*Section*/
+ h2 {
+   font-family: "Mate SC", serif;
+   color: purple;
+ }
+
+.title {
+  width: 80%;
+  border-bottom: 2px solid;
+  margin-left: 10%;
+  margin-top: 5%;
+}
+
+.row {
+  width: 80%;
+}
+
+.slider-centering {
+  display: flex;
+  justify-content: center;
+}
+
+.slider-width {
+  width: 70%;
+}
+
+/*Footer*/
+#row_footer {
+  width: 100%;
+}
+
+.page-footer {
+  margin-top: 6%;
+  background-image: url(../images/footer/background.jpg);
+}
+
+.footer-icon {
+  width: 30%;
+  height: 150px;
+  padding-top: 0.5%;
+  padding-bottom: 1.5%;
+}
+
+.footer-icon img {
+  width: 100%;
+  height: 100%;
+}
+
+#container_copyright {
+  text-align: center;
+}
+
+@media screen and (max-width: 3000px) {
+    .nav-all {
+      padding-top: 2%;
+    }
+
+    .page-footer {
+      margin-top: 12.5%;
+    }
+}
+
+@media screen and (max-width: 2560px) {
+    .nav-all {
+      padding-top: 2%;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .nav-all {
+      height: 150px;
+      padding-top: 3%;
+    }
+
+    .page-footer {
+      margin-top: 9%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+  .nav-all {
+    height: 120px;
+    padding-top: 1.5%;
+  }
+
+  .slider-width {
+    width: 70%;
+  }
+
+  .footer-icon {
+    margin-left: 35%;
+  }
+
+  #centered_on_smart {
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 540px) {
+  .footer-icon {
+    margin-left: 35%;
+  }
+
+  .nav-all {
+    height: 100px;
+    padding-top: 0;
+    width: 100%;
+  }
+
+  #centered_on_smart {
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 414px) {
+  .nav-all {
+    height: 100px;
+    padding-top: 0;
+    width: 100%;
+  }
+
+  .slider-width {
+    width: 80%;
+  }
+
+  .footer-icon {
+    margin-left: 35%;
+  }
+
+  #centered_on_smart {
+    text-align: center;
+  }
+
+  #container_copyright {
+    font-size: 12px;
+  }
+}
